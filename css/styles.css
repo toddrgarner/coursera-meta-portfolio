@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsla(0, 4%, 75%, 0.917);
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;   
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 30px;
+    }
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    max-width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 30px;
+    
+ }
+
+
+
+ .nav-list {
+    background-color: black;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    border: solid black 2px;
+    border-radius: 25px;
+    
+ }  
+
+ .nav-list a {
+    display: inline-block; 
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+ 
+ nav ul {
+    list-style: none;
+    text-align: center;
+    }
+
+ nav li{
+    display: inline-block;
+    color: white;
+ }
+
+ .nav-list a:hover {
+    background-color: rgb(163, 198, 244);
+ }
+
+ .container {
+    display: flex;
+    justify-content: center;
+ }
+
+ .card-discount {
+    background: rgb(236, 214, 214);
+    display: inline-block; 
+    text-align: left;
+    border: solid black 2px;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 10px;
+ }
+
+ .card {
+    background: rgb(236, 214, 214);
+    display: inline-block; 
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 10px;
+    /* width: 220px; */
+    height: 400px;
+    
+ }
+
+ /* article {
+    flex: 1;
+} */
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.logo-tiny {
+ width: 9%;
+}
+
+
+
+/* .little-lemon {
+ text-decoration-line: overline;
+} */
+
+
