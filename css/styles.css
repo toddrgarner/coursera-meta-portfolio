@@ -13,6 +13,7 @@ body {
 }
 
 h1 {
+   background-image: url("assets/seafood-pasta-640x426.jpg");
     font-size: 3rem;
     padding: 30px;
     }
@@ -29,10 +30,6 @@ header > img {
     padding: 30px;
     
  }
-
- .container 
-
-
 
 
  .nav-list {
@@ -75,7 +72,7 @@ header > img {
 
  .card-discount {
         display: inline-block; 
-    text-align: left;
+    text-align: left;  
     border: solid black 2px;
     border-radius: 25px;
     padding: 25px;
