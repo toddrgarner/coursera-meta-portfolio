@@ -23,7 +23,9 @@ h2 {
 }
 
 img {
-   width: 200px;
+ 
+   display: block;
+    width: 375px;
    height: 200px;
 }
 
@@ -88,7 +90,7 @@ header > img {
  .card-1 {
     background: rgb(236, 214, 214);    
     display: inline-block; 
-    text-align: center;
+    text-align: left;
     border: solid black 2px;
     border-radius: 25px;
     padding: 25px;
@@ -99,7 +101,7 @@ header > img {
  .card-2 {
    background: rgb(236, 214, 214);    
    display: inline-block; 
-   text-align: center;
+   text-align: left;
    border: solid black 2px;
    border-radius: 25px;
    padding: 25px;
@@ -112,7 +114,7 @@ header > img {
 .card-3 {
    background: rgb(236, 214, 214);    
    display: inline-block; 
-   text-align: center;
+   text-align: left;
    border: solid black 2px;
    border-radius: 25px;
    padding: 25px;
