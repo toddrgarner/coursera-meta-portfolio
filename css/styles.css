@@ -22,6 +22,11 @@ h2 {
     font-size: 2rem;
 }
 
+img {
+   width: 200px;
+   height: 200px;
+}
+
 header > img {
     max-width: 45%;
     display: block;
@@ -30,6 +35,7 @@ header > img {
     padding: 30px;
     
  }
+ 
 
 
  .nav-list {
@@ -79,18 +85,40 @@ header > img {
     margin: 10px;
  }
 
- .card {
-    background: rgb(236, 214, 214);
+ .card-1 {
+    background: rgb(236, 214, 214);    
     display: inline-block; 
     text-align: center;
     border: solid black 2px;
     border-radius: 25px;
     padding: 25px;
     margin: 10px;
-    /* width: 220px; */
-    height: 400px;
-    
+ 
  }
+
+ .card-2 {
+   background: rgb(236, 214, 214);    
+   display: inline-block; 
+   text-align: center;
+   border: solid black 2px;
+   border-radius: 25px;
+   padding: 25px;
+   margin: 10px;
+  
+
+   
+}
+
+.card-3 {
+   background: rgb(236, 214, 214);    
+   display: inline-block; 
+   text-align: center;
+   border: solid black 2px;
+   border-radius: 25px;
+   padding: 25px;
+   margin: 10px;
+ 
+}
 
  /* article {
     flex: 1;
