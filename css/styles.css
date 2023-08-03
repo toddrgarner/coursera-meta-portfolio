@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-   background-image: url("assets/seafood-pasta-640x426.jpg");
     font-size: 3rem;
     padding: 30px;
     }
@@ -25,7 +24,7 @@ h2 {
 img {
  
    display: block;
-    width: 375px;
+    width: 300px;
    height: 200px;
 }
 
