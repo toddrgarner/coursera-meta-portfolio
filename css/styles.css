@@ -137,6 +137,12 @@ footer div {
  width: 9%;
 }
 
+.little-lemon {
+   border-top-style: solid;
+   border-bottom-width: 1px;
+   text-align: right;
+}
+
 
 
 /* .little-lemon {
