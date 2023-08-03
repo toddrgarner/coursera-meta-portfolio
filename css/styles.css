@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     box-sizing: border-box;
 }
 body {
@@ -29,7 +29,8 @@ img {
 }
 
 header > img {
-    max-width: 45%;
+    max-width: 55%;
+ 
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -134,7 +135,7 @@ footer div {
 }
 
 .logo-tiny {
- width: 9%;
+ width: 20%;
 }
 
 .little-lemon {
@@ -144,9 +145,5 @@ footer div {
 }
 
 
-
-/* .little-lemon {
- text-decoration-line: overline;
-} */
 
 
