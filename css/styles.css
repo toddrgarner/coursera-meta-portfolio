@@ -1,150 +1,132 @@
 * {
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
 }
 body {
-    background-color: hsla(0, 4%, 75%, 0.917);
-    font-family: 'Markazi Text', serif;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;   
-}
-
-h1 {
-    font-size: 3rem;
-    padding: 30px;
-    }
-
-h2 {
-    font-size: 2rem;
-}
-
-img {
- 
-   display: block;
-    width: 300px;
-   height: 200px;
+  background-color: hsla(0, 4%, 75%, 0.917);
+  font-family: "Markazi Text", serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 header > img {
-    max-width: 55%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   }
  
+   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    padding: 30px;
-    
- }
- 
-
-
- .nav-list {
-    background-color: black;
-    flex-flow: row wrap;
-    justify-content: stretch;
-    border: solid black 2px;
-    border-radius: 25px;
-    
- }  
-
- .nav-list a {
-    display: inline-block; 
-    padding: 5px;
-    margin: 0 25px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    border-radius: 25px;
+    width: 300px;
+    height: 200px;
   }
 
- 
- nav ul {
-    list-style: none;
-    text-align: center;
-    }
+h1 {
+  font-size: 3rem;
+  padding: 30px;
+}
 
- nav li{
-    display: inline-block;
-    color: white;
- }
+h2 {
+  font-size: 2rem;
+}
 
- .nav-list a:hover {
-    background-color: rgb(163, 198, 244);
- }
+.nav-list {
+  background-color: black;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  border: solid black 2px;
+  border-radius: 25px;
+}
 
- .container {
-    display: flex;
-    justify-content: center;
- }
+.nav-list a {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 25px;
+}
 
- .card-discount {
-        display: inline-block; 
-    text-align: left;  
-    border: solid black 2px;
-    border-radius: 25px;
-    padding: 25px;
-    margin: 10px;
- }
+nav ul {
+  list-style: none;
+  text-align: center;
+}
 
- .card-1 {
-    background: rgb(236, 214, 214);    
-    display: inline-block; 
-    text-align: left;
-    border: solid black 2px;
-    border-radius: 25px;
-    padding: 25px;
-    margin: 10px;
- 
- }
+nav li {
+  display: inline-block;
+  color: white;
+}
 
- .card-2 {
-   background: rgb(236, 214, 214);    
-   display: inline-block; 
-   text-align: left;
-   border: solid black 2px;
-   border-radius: 25px;
-   padding: 25px;
-   margin: 10px;
-  
+.nav-list a:hover {
+  background-color: rgb(163, 198, 244);
+}
 
-   
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-discount {
+  display: inline-block;
+  text-align: left;
+  border: solid black 2px;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.card-1 {
+  background: rgb(236, 214, 214);
+  display: inline-block;
+  text-align: left;
+  border: solid black 2px;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.card-2 {
+  background: rgb(236, 214, 214);
+  display: inline-block;
+  text-align: left;
+  border: solid black 2px;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 10px;
 }
 
 .card-3 {
-   background: rgb(236, 214, 214);    
-   display: inline-block; 
-   text-align: left;
-   border: solid black 2px;
-   border-radius: 25px;
-   padding: 25px;
-   margin: 10px;
- 
+  background: rgb(236, 214, 214);
+  display: inline-block;
+  text-align: left;
+  border: solid black 2px;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 10px;
 }
 
- /* article {
+/* article {
     flex: 1;
 } */
 
 footer {
-    display: flex;
+  display: flex;
 }
 
 footer div {
-    flex: 1;
+  flex: 1;
 }
 
 .logo-tiny {
- width: 20%;
+  width: 20%;
 }
 
 .little-lemon {
-   border-top-style: solid;
-   border-bottom-width: 1px;
-   text-align: right;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  text-align: right;
 }
-
-
-
-
